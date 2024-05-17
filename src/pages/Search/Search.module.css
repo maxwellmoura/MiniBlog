@@ -14,3 +14,53 @@
 .noposts{
     text-align: center;
 }
+/* Resonsividade */
+@media (max-width: 360px) {
+    .search {
+      padding: 20px;
+    }
+  
+    .search h1 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+  
+    .search p {
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  @media (max-width: 414px) {
+    .search {
+      padding: 30px;
+    }
+  
+    .search h1 {
+      font-size: 1.75em;
+      margin-bottom: 0.75em;
+    }
+  
+    .search p {
+      font-size: 1.1em;
+      margin-bottom: 25px;
+    }
+  }
+  
+
+  @media (min-width: 1920px) {
+    .search {
+      padding: 40px;
+    }
+  
+    .search h1 {
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+  
+    .search p {
+      font-size: 1.25em;
+      margin-bottom: 30px;
+    }
+  }

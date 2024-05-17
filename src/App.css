@@ -2,3 +2,24 @@
   min-height: 60vh;
   margin-bottom: 5em;
 }
+/* Responsividade */
+@media screen and (max-width: 360px) {
+  .container {
+    min-height: 40vh; 
+    margin-bottom: 3em; 
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 414px) {
+  .container {
+    min-height: 50vh;
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 1920px) {
+  .container {
+    min-height: 70vh; 
+    margin-bottom: 6em; 
+  }
+}

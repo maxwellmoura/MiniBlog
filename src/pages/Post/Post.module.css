@@ -14,3 +14,35 @@
 .tags span{
     font-weight: bold;
 }
+/* Responsividade */
+@media (max-width: 360px) {
+    .post h3 {
+        margin-bottom: 1.5em; 
+    }
+
+    .tags p {
+        margin-right: 0.5em; 
+    }
+}
+
+
+@media (max-width: 414px) {
+    .post h3 {
+        margin-bottom: 1.5em;
+    }
+
+    .tags p {
+        margin-right: 0.75em; 
+    }
+}
+
+
+@media (min-width: 1920px) {
+    .post h3 {
+        margin-bottom: 3em;
+    }
+
+    .tags p {
+        margin-right: 2em;
+    }
+}

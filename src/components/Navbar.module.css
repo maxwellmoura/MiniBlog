@@ -35,3 +35,44 @@ button:hover{
     color: black;
     cursor: pointer;
 }
+/* Responsividade */
+@media only screen and (max-width: 360px) {
+    .navbar {
+        padding: .3em;
+        box-shadow: black 0px -2px 10px 0px;
+    }
+
+    .brand {
+        font-size: 0.8em; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        padding: .5em; 
+        box-shadow: black 0px -2px 10px 0px;
+    }
+
+    .links_list li a {
+        padding: .2em .4em; 
+    }
+
+    button {
+        font-size: 0.8em; 
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .navbar {
+        padding: .5em 2em;
+        box-shadow: black 0px -2px 10px 0px;
+    }
+
+    .links_list li a {
+        padding: .4em .6em; 
+    }
+
+    button {
+        font-size: 1em; 
+    }
+}

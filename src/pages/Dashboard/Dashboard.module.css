@@ -49,3 +49,40 @@
     width: 100px;
     font-size: 0.7em;
 }
+/* Responsividade */
+@media only screen and (max-width: 360px) {
+  .dashboard h2 {
+    font-size: 1.8em;
+  }
+  .dashboard p {
+    font-size: 0.9em;
+  }
+  .post_row button,
+  .post_row a {
+    width: 80px;
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .dashboard h2 {
+    font-size: 2em;
+  }
+  .dashboard p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .dashboard h2 {
+    font-size: 3em;
+  }
+  .dashboard p {
+    font-size: 1.2em;
+  }
+  .post_row button,
+  .post_row a {
+    width: 120px;
+    font-size: 0.8em;
+  }
+}

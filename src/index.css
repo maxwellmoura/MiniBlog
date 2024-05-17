@@ -94,3 +94,40 @@ button[disabled]{
     padding: 5px;
     border-radius: 5px;
 }
+
+/* Reponsividade */
+
+@media (max-width: 360px) and (max-height: 780px) {
+    form {
+        max-width: 90%;
+    }
+    
+    .btn {
+        width: 100px;
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 414px) and (max-height: 896px) {
+    form {
+        max-width: 85%;
+    }
+    
+    .btn {
+        width: 110px;
+        font-size: 0.95em;
+    }
+}
+
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    form {
+        max-width: 30%;
+    }
+    
+    .btn {
+        width: 140px;
+        font-size: 1.1em;
+    }
+}

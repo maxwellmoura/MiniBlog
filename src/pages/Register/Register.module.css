@@ -4,3 +4,44 @@
 .register p{
     color: #aaa;
 }
+/* Responsividade */
+@media (max-width: 360px) and (max-height: 780px) {
+    .register {
+       
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .register p {
+        
+        color: #888;
+    }
+}
+
+
+@media (max-width: 414px) and (max-height: 896px) {
+    .register {
+        
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .register p {
+        
+        color: #777;
+    }
+}
+
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    .register {
+        
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .register p {
+        
+        color: #666;
+    }
+}

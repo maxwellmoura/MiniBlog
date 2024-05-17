@@ -23,3 +23,24 @@
     font-size:  0.8em;
     margin-bottom: 1em;
 }
+/* Responsividade */
+@media (max-width: 360px) {
+    .post_detail img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .post_detail img {
+        max-width: 100%;
+    }
+    .tags {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1920px) {
+    .post_detail img {
+        max-width: 800px; 
+    }
+}

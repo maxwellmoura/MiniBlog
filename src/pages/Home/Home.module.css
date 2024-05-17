@@ -24,3 +24,44 @@
 .noposts a{
     padding: 10px 25px;
 }
+/* Responsividade */
+@media (max-width: 360px) and (max-height: 780px) {
+    .seach_form {
+        width: 80%;
+    }
+    .seach_form input {
+        width: 70%;
+        margin-right: 5px;
+    }
+    .noposts a {
+        padding: 8px 20px;
+    }
+}
+
+
+@media (max-width: 414px) and (max-height: 896px) {
+    .seach_form {
+        width: 75%;
+    }
+    .seach_form input {
+        width: 65%;
+        margin-right: 8px;
+    }
+    .noposts a {
+        padding: 9px 22px;
+    }
+}
+
+
+@media (min-width: 1920px) and (min-height: 1080px) {
+    .seach_form {
+        width: 50%;
+    }
+    .seach_form input {
+        width: 40%;
+        margin-right: 15px;
+    }
+    .noposts a {
+        padding: 12px 30px;
+    }
+}

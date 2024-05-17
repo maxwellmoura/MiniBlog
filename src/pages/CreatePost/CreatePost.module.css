@@ -8,3 +8,24 @@
     color: #aaa;
     margin-bottom: 2em;
 }
+/* Responsividade */
+@media screen and (max-width: 360px) {
+    .create_post h2 {
+        font-size: 1.8em; 
+    }
+
+    .create_post p {
+        font-size: 0.9em; 
+    }
+}
+
+@media screen and (max-width: 414px) {
+    /* Não é necessário nenhum ajuste adicional para essa resolução */
+}
+
+@media screen and (min-width: 1920px) {
+    .create_post {
+        max-width: 800px; 
+        margin: 0 auto; 
+    }
+}

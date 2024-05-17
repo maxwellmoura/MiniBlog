@@ -17,3 +17,33 @@
     max-width: 50%;
     margin-bottom: 1em;
 }
+/* Responsividade */
+@media (max-width: 360px) {
+    .edit_post h2 {
+        font-size: 1.5em; 
+    }
+
+    .image_preview {
+        max-width: 80%; 
+    }
+}
+
+@media (max-width: 414px) {
+    .edit_post h2 {
+        font-size: 1.8em; 
+    }
+
+    .image_preview {
+        max-width: 70%; 
+    }
+}
+
+@media (min-width: 1920px) {
+    .edit_post h2 {
+        font-size: 3em; 
+    }
+
+    .image_preview {
+        max-width: 40%; 
+    }
+}

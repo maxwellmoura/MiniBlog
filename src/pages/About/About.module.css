@@ -13,3 +13,33 @@
     margin-top: 15px;
     padding: 10px 15px;
 }
+/* Responsividade */
+@media only screen and (max-width: 414px) {
+    .about p {
+        font-size: 14px;
+    }
+
+    .about a {
+        padding: 8px 12px;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 896px) {
+    .about p {
+        font-size: 16px;
+    }
+
+    .about a {
+        padding: 10px 14px;
+    }
+}
+
+@media only screen and (min-width: 897px) {
+    .about p {
+        font-size: 18px;
+    }
+
+    .about a {
+        padding: 12px 16px;
+    }
+}
